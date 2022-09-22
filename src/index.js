@@ -27,15 +27,17 @@ const modalStyles = {
 
 const closeBtnStyles = {
   position: 'absolute',
-  right: '-20px',
-  top: '-20px',
+  right: '-35px',
+  top: '-40px',
   background: 'none',
   borderRadius: '50%',
   fontWeight: 'bold',
   fontSize: '20px',
   cursor: 'pointer',
   color: 'white',
-  background: 'black'
+  background: 'black',
+  padding: '5px',
+  width: '40px'
 }
 
 const Modal = ({ children, show, onClickCloseBtn }) => {
